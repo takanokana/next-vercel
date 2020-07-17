@@ -1,6 +1,5 @@
 
 const BlogId = ({blog}) => {
-  console.log(blog)
   return (
     <div>
       <h1>{blog.title}</h1>

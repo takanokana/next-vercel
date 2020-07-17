@@ -6,7 +6,6 @@ export default function index({news}) {
       <h2>ニュース一覧</h2>
       <ul>
         {news.map(content => {
-          console.log(content)
           return (
           <li key={content.id}>
             <Link href={`${content.id}`}>
@@ -16,6 +15,7 @@ export default function index({news}) {
           )
         })}
       </ul>
+      <div>【追記】実際にプッシュして更新されるかテスト!</div>
     </>
   )
 }
