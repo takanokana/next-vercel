@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function index({news}) {
   return (
     <>
-      <h2>ニュース一覧githubチェック</h2>
+      <h2>ニュース一覧githubチェック2</h2>
       <ul>
         {news.map(content => {
           return (
